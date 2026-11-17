@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 1000" role="img" aria-labelledby="title desc">
+  <title id="title">Shell Rimula R1, R3 and R4 oils</title>
+  <desc id="desc">Three Shell Rimula engine oil pails arranged together, with Shell logos and R1, R3 and R4 labels.</desc>
+  <defs>
+    <linearGradient id="back" x2="0" y2="1"><stop stop-color="#839b72"/><stop offset="1" stop-color="#263f30"/></linearGradient>
+    <linearGradient id="light" x2="1" y2="1"><stop stop-color="#fff"/><stop offset="1" stop-color="#c8c9c2"/></linearGradient>
+    <linearGradient id="dark" x2="1" y2="1"><stop stop-color="#343a3b"/><stop offset="1" stop-color="#111819"/></linearGradient>
+    <linearGradient id="red" x2="1" y2="1"><stop stop-color="#c53e28"/><stop offset="1" stop-color="#761b15"/></linearGradient>
+    <filter id="shadow" x="-.3" y="-.2" width="1.6" height="1.6"><feGaussianBlur stdDeviation="20"/></filter>
+    <g id="shell"><path d="M0 46c4-18 15-30 31-38 16 8 27 20 31 38l-8 20H8z" fill="#ed1c24"/><path d="M7 43c5-15 14-25 24-31 10 6 19 16 24 31l-7 17H14z" fill="#ffd322"/><path d="M31 13v46M20 20l5 39m18-39-5 39M12 34l8 25m31-25-8 25" fill="none" stroke="#ed1c24" stroke-width="2.4"/></g>
+    <g id="pail">
+      <ellipse cx="150" cy="73" rx="115" ry="29" fill="#171d19" opacity=".55"/>
+      <path d="M47 63Q50 46 70 43h160q20 3 23 20l-14 345q-2 30-31 33H92q-29-3-31-33z" fill="currentColor" stroke="#18211d" stroke-width="6"/>
+      <ellipse cx="150" cy="63" rx="103" ry="23" fill="#727976" stroke="#202723" stroke-width="6"/>
+      <path d="M68 85h164M74 387h151" stroke="#fff" stroke-opacity=".23" stroke-width="7"/>
+      <path d="M87 51q63-75 126 0" fill="none" stroke="#555d58" stroke-width="9"/>
+      <rect x="73" y="120" width="154" height="235" rx="5" fill="#f4f2e8"/>
+      <use href="#shell" x="122" y="131" transform="scale(.75) translate(41 43)"/>
+      <text x="150" y="205" text-anchor="middle" font-family="Arial,sans-serif" font-size="19" font-weight="700" fill="#333">SHELL</text>
+      <text x="150" y="246" text-anchor="middle" font-family="Arial,sans-serif" font-size="31" font-weight="800" fill="#b92824">RIMULA</text>
+      <path d="M79 267h142v68H79z" fill="#17372b"/>
+      <text class="grade" x="150" y="317" text-anchor="middle" font-family="Arial,sans-serif" font-size="48" font-weight="800" fill="#fff"/>
+      <text x="150" y="345" text-anchor="middle" font-family="Arial,sans-serif" font-size="10" font-weight="700" fill="#17251d">ENGINE OIL</text>
+      <path d="M53 83l18 314m192-314-18 314" stroke="#fff" stroke-opacity=".1" stroke-width="6"/>
+    </g>
+  </defs>
+  <rect width="900" height="1000" fill="url(#back)"/>
+  <circle cx="420" cy="400" r="370" fill="#d5e2bb" opacity=".16"/>
+  <ellipse cx="450" cy="844" rx="345" ry="48" fill="#07120c" opacity=".48" filter="url(#shadow)"/>
+  <g transform="translate(58 392) scale(.88)" color="url(#light)"><use href="#pail"/><text x="150" y="317" text-anchor="middle" font-family="Arial,sans-serif" font-size="48" font-weight="800" fill="#24382d">R1</text></g>
+  <g transform="translate(304 276) scale(1.05)" color="url(#dark)"><use href="#pail"/><text x="150" y="317" text-anchor="middle" font-family="Arial,sans-serif" font-size="48" font-weight="800" fill="#fff">R3</text></g>
+  <g transform="translate(579 392) scale(.88)" color="url(#red)"><use href="#pail"/><text x="150" y="317" text-anchor="middle" font-family="Arial,sans-serif" font-size="48" font-weight="800" fill="#fff">R4</text></g>
+</svg>
